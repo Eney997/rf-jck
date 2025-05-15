@@ -19,4 +19,7 @@ interface ApiBridge {
     //delete user
     @DELETE("api/User/{id}")
     suspend fun deleteUser(@Path("id") id: Int): Response<Void>
+    //update user
+    @POST("api/User/{id}")
+    suspend fun updateUser(@Path("id") id: Int, @Body user: UserSdTo): Response<UserSdTo>
 }
