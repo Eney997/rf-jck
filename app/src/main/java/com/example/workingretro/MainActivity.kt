@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
 
             //create user
-            //CreateUser()
+            CreateUser()
 
             //Read data from database
             //ReadDataScreen()
@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
             //DeleteUser()
 
             //update user
-            UpdateUser()
+            //UpdateUser()
 
 
         }
